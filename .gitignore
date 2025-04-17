@@ -1,1 +1,54 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Next.js
+.next/
+out/
+.next/static/
+!.next/static/.keep
+
+# Build output
+dist/
+build/
+
+# Vercel
+.vercel/
+
+# Local env files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Coverage
+coverage/
+
+# Optional: if you're using Swagger/OpenAPI
+openapi.json
+openapi.yaml
+swagger-ui/
